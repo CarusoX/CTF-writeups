@@ -9,7 +9,7 @@ L = pow(2, pow(2, T), N)
 ```
 where T and N are also some constants.
 
-The problem is that pow(2, T) is too big, and therefore we can't have the value `L`. But we have to remember that when dealing with an equation modulo `N`, the exponent is only needed module `ϕ(N)` (https://en.wikipedia.org/wiki/Euler%27s_theorem)
+The problem is that pow(2, T) is too big, and therefore we can't have the value `L`. But we have to remember that when dealing with an equation modulo `N`, the exponent is only needed mod `ϕ(N)` (https://en.wikipedia.org/wiki/Euler%27s_theorem)
 
 To calculate `ϕ(N)` we just need to factorize `N`:
 ```
